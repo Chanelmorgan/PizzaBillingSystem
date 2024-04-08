@@ -7,5 +7,11 @@ public class Main {
         basePizza.addExtraToppings();
         basePizza.takeAway();
         basePizza.getBill();
+
+
+        // Testing delux pizza class
+        DeluxPizza deluxPizza = new DeluxPizza(true);
+        deluxPizza.getBill();
+
     }
 }
