@@ -6,7 +6,11 @@ public class Main {
 
 
         // Testing
-        Pizza basePizza = new Pizza(true);
+        Pizza basePizza = new Pizza(false);
        // basePizza.getPizzaPrice();
+        basePizza.addExtraCheese();
+        basePizza.addExtraToppings();
+        basePizza.takeAway();
+        basePizza.getBill();
     }
 }
