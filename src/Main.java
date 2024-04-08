@@ -1,6 +1,12 @@
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+
+
+
+        // Testing
+        Pizza basePizza = new Pizza(true);
+       // basePizza.getPizzaPrice();
     }
 }
